@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="arabic_english_invoice" inherit_id="l10n_gcc_invoice.arabic_english_invoice">
+        <xpath expr="//t[@t-set='address']" position="after">
+            <t t-set="information_block">
+            </t>
+        </xpath>
+    </template>
+
+</odoo>
